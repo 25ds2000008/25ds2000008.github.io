@@ -12,12 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prime Cache
+      - name: Cache dependencies
         id: cache-step
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.cache/demo
+          path: ~/.cache/demo
           key: cache-117e1c3
 
       - name: prime-cache-117e1c3

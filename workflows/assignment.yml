@@ -1,0 +1,14 @@
+name: Assignment Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 25ds200008@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions!"

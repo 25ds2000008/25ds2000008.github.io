@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: 25ds200008@ds.study.iitm.ac.in
-        run: echo "Hello from GitHub Actions!"
+        run: echo "Hello, world!"
